@@ -1,0 +1,27 @@
+.paginator{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginator__btn{
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.paginator__btn:disabled{
+    background-color: gray;
+    cursor: default;
+}
+
+
+.paginator__page{
+    color: white;
+    margin: 30px 20px;
+}
+

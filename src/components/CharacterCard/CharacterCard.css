@@ -1,0 +1,23 @@
+.character-card{
+    display: block;
+    max-width: 150px;
+    margin-right:5px ;
+    background-color: white;
+    padding: 5px 2px;
+    height: 125px;
+    border-radius: 5px;
+}
+
+.character-card__img{
+    display: block;
+    max-width: 80%;
+    max-height: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.character-card__name{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
